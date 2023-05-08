@@ -1,4 +1,4 @@
-function changeTab(target, name){
+function showTab(target, name){
     var tabs = document.getElementsByClassName("tab");
     var tab = document.getElementById(name);
     var buttons = document.getElementsByTagName("button");
@@ -9,7 +9,6 @@ function changeTab(target, name){
       // Display tab
       tab.style.display = "block";
   
-      buttons[i].classList.remove("active");
     }
   };
   
@@ -30,11 +29,6 @@ function changeTab(target, name){
       prevEl: '.swiper-button-prev',
     },
   
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  
     // Responsive breakpoints
     breakpoints: {
       // when window width is >= 800px
@@ -42,7 +36,7 @@ function changeTab(target, name){
         slidesPerView: 2,
         slidesPerGroup: 2
       },
-    // when window width is >= 100px
+    // when window width is >= 1000px
     1000: {
       slidesPerView: 3,
       slidesPerGroup: 3

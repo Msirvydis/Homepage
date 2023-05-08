@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cheshire</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <!-- swiperjs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="app/css/style.css">
 </head>
 <body>
@@ -77,9 +78,9 @@
  <div class="overlay2"></div>
  <div class="container">
    <div class="tabs">
-    <button onclick="changeTab(event, 'register')"><p class="rotatetext">REGISTER</p></button>
-    <button onclick="changeTab(event, 'apply')"><p class="rotatetext">APPLY</p></button>
-    <button onclick="changeTab(event, 'receive')"><p class="rotatetext">RECEIVE</p></button>
+    <button onclick="showTab(event, 'register')"><p class="rotatetext">REGISTER</p></button>
+    <button onclick="showTab(event, 'apply')"><p class="rotatetext">APPLY</p></button>
+    <button onclick="showTab(event, 'receive')"><p class="rotatetext">RECEIVE</p></button>
    </div>
    <div id="register" class="tab">
      <div class="element2">
@@ -369,7 +370,7 @@
   </div>
   <p class="text9">@ 2019 Cheshire County</p>
 </footer>
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
