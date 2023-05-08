@@ -1,0 +1,141 @@
+h1{
+    font-size: 36px;
+    color:$text-colors-1;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  h2{
+    font-size: 30px;
+    color:$text-colors-1;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  h3{
+    font-size: 20px;
+    color:$text-colors-2;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  h4{
+    font-size: 18px;
+    color:$text-colors-1;
+    font-family: Montserrat;
+  }
+  
+  h5{
+    font-size: 14px;
+    color:$text-colors-1;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  label{
+    font-size: 9px;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  .text1{
+    font-size: 16px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    opacity: 0.8;
+  }
+  
+  .text2{
+    width: 100%;
+    font-size: 16px;
+    color: $text-colors-6;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  
+  .text3{
+    font-size: 14px;
+    color: $text-colors-3;
+    font-family: Montserrat;
+  }
+  
+  .text4, .text10{
+    font-size: 14px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    padding-top: 5px;
+  }
+  
+  .text5{
+    font-size: 14px;
+    color: $text-colors-3;
+    font-family: Montserrat;
+  }
+  
+  .text6{
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    padding: 20px;
+  }
+  
+  .text7{
+    height: 100px;
+    text-align: center;
+    font-size: 94px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    padding: 3px;
+  }
+  
+  .text8{
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    opacity: 50%;
+    padding: 18px;
+  }
+  
+  .text9{
+      font-size: 18px;
+      color:$text-colors-1;
+      font-family: Montserrat;
+      opacity: 0.5;
+  }
+  
+    button .download {
+    font-size: 20px;
+    color: $text-colors-1;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    @include flex-center;
+  }
+  
+  mark{
+    background: none;
+    color:$text-colors-4;
+  }
+  
+  .black{
+    color:black;
+  }
+  
+  #dola{
+    color: $text-colors-1;
+    font-size: 40px;
+  }
+  
+  .overlay3 a {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color:$text-colors-1;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 600;
+    @include flex-center;
+  }

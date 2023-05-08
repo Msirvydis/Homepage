@@ -1,0 +1,199 @@
+@media(max-width: 800px){
+    // Genral Media
+    
+    section, header, nav, footer{
+        padding:0 30px 0 30px;
+      }
+    
+      h1{
+        font-size: 30px !important;
+        text-align: center;
+      }
+    
+    // Nav Media
+    nav{
+      width:100%;
+    }
+    
+    .links {
+      display: none;
+    }
+    
+    .menu-burger {
+      display: block;
+    }
+    
+    // Header media
+    header{
+    flex-direction: column;
+    height: auto;
+    }
+    
+    .element1{
+      height: 400px;
+      width: 90%;
+      @include flex-space-around;
+      margin: 30px 0 0 0;
+    }
+    
+    .fillbox{
+      width: 90%;
+      margin: 20px 0 50px 0;
+    }
+    // Socials Media
+    .socialtextwidth{
+      width: 48%;
+    }
+    
+    // Tabs Media
+    .section2 {
+    height: auto;
+    }
+    
+    .container{
+      flex-direction: column;
+    }
+    
+    .tabs{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      flex-direction: row;
+    }
+    
+    .tabs button{
+      margin-left: 20px;
+    }
+    .element2{
+      flex-direction: column;
+      margin: 0 0 30px 0;
+    }
+    
+    .element2a{
+      width:100%;
+      margin-bottom: 30px;
+    }
+    
+    // Features Media
+    .section3{
+      height: auto;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    
+    .element3{
+      height: 400px;
+      width: 90%;
+      align-items:center;
+    }
+    
+    
+    // About media
+    .section4{
+      height: auto;
+      margin: 30px 0 30px 0;
+    }
+    .perks{
+      flex-direction: column;
+    }
+    .perk{
+      height: 150px;
+      width: 80%;
+    justify-content: space-around;
+    }
+    
+    // Pricing Media
+    
+    // Reviews media
+    .swiper-slide {
+    bottom: 50px;
+    }
+    
+    // Reviewer Media
+    .text9{
+      margin-left: 20px;
+    }
+    
+    // Pabaiga
+    }
+    
+    @media (min-width: 800px){
+      // Genral Media
+    
+      section, header, footer, nav{
+          padding:0 75px 0 75px;
+        }
+    
+    //Nav Media
+     .links{
+       width: 50%;
+     }
+    
+     // Header Media
+     .element1{
+       height: 80%;
+     }
+    
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+    
+      .section2{
+        height: 800px;
+    }
+    
+    .tabs{
+      justify-content: center;
+    
+    }
+    .tabs button{
+      margin-bottom: 20px;
+    }
+    
+    .tab{
+      height: auto;
+    }
+    
+    .element2{
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    
+    .element2a{
+      width: 100%;
+      padding-top:30px;
+      padding-bottom:30px;
+    
+    }
+    
+    .element3 {
+      padding-left: 30px;
+    }
+    
+      // Pabaiga
+    }
+    
+    @media (min-width: 1000px){
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+    
+      section, header, footer, nav{
+          padding:0 150px 0 150px;
+    }
+    
+    .element2{
+      flex-direction: row;
+    }
+    
+    .element2a{
+      justify-content: center;
+    
+    }
+    
+    }
+    
